@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /mekatronikmakine
+RewriteRule ^index\.php$ – [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+ErrorDocument 404 not-found.html
+RewriteRule ^shop.html/(.*)$ shop.php?kat=$1 [R=301,QSA,L]
+
+
+</IfModule>

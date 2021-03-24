@@ -1,0 +1,53 @@
+.auto-container.subtitle{
+position: absolute;
+transform: translate(25%,-150%);
+	 z-index: 1;
+ }
+
+ .auto-container.subtitle .title-sub{
+	position: relative;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+    
+ }
+ .auto-container.subtitle .cont h3 {
+    
+    position: relative;
+    color: #ffaa00;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+ }
+
+ @media only screen and (max-width: 800px) {
+    .auto-container.subtitle{
+        position: absolute;
+        transform: translate(15%,-150%);
+             z-index: 1;
+         }
+        
+         .auto-container.subtitle .title-sub{
+            position: relative;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 300;
+            margin-bottom: 12px;
+            text-transform: capitalize;
+            
+         }
+         .auto-container.subtitle .cont h3 {
+            
+            position: relative;
+            color: #ffaa00;
+            font-size: 24px;
+            font-weight: 350;
+            line-height: 1.1em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+         }
+  }
